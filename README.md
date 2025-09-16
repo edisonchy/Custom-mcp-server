@@ -6,8 +6,6 @@ This server connects to:
 - **Pokémon API** – fetch and interact with Pokémon data  
 - **Binance API** – get real-time crypto market data  
 
----
-
 ## Quick Start
 
 ```bash
@@ -24,8 +22,6 @@ Run the server locally:
 node dist/index.js
 ```
 
----
-
 ## Project Structure
 
 ```
@@ -40,21 +36,17 @@ custom-mcp-server/
 └── tsconfig.json
 ```
 
----
-
 ## Tools
 
 ### Pokémon Tool
-- Fetch Pokémon details (types, abilities, stats)  
-- Search Pokémon by name or ID  
+* Fetch Pokémon details (types, abilities, stats)  
+* Search Pokémon by name or ID  
 
 ### Binance Tool
-- Get latest prices for trading pairs (e.g., BTC/USDT)  
-- Access real-time crypto market data  
+* Get latest prices for trading pairs (e.g., BTC/USDT)  
+* Access real-time crypto market data  
 
 Each tool is built using the `MCPTool` class from `mcp-framework`.
-
----
 
 ## Example Tool Implementation
 
@@ -87,8 +79,6 @@ class BinanceTool extends MCPTool<PriceInput> {
 export default BinanceTool;
 ```
 
----
-
 ## Publishing to npm
 
 1. Update **package.json** (`name`, `version`, `description`, etc.)  
@@ -103,8 +93,6 @@ export default BinanceTool;
    npm login
    npm publish
    ```
-
----
 
 ## Using with Claude Desktop
 
@@ -137,8 +125,6 @@ export default BinanceTool;
 }
 ```
 
----
-
 ## Building and Testing
 
 1. Add or modify tools in `src/tools/`  
@@ -148,11 +134,9 @@ export default BinanceTool;
    ```
 3. Run your server and test the Pokémon & Binance tools.
 
----
-
 ## Learn More
 
-- [MCP Framework GitHub](https://github.com/QuantGeekDev/mcp-framework)  
-- [MCP Framework Docs](https://mcp-framework.com)  
-- [Pokémon API](https://pokeapi.co/)  
-- [Binance API](https://binance-docs.github.io/apidocs/)  
+* [MCP Framework GitHub](https://github.com/QuantGeekDev/mcp-framework)  
+* [MCP Framework Docs](https://mcp-framework.com)  
+* [Pokémon API](https://pokeapi.co/)  
+* [Binance API](https://binance-docs.github.io/apidocs/)  
