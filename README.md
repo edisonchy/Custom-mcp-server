@@ -19,7 +19,7 @@ npm run build
 Run the server locally:
 
 ```bash
-node dist/index.js
+npm run start
 ```
 
 ## Project Structure
